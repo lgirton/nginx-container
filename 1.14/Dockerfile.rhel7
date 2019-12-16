@@ -5,8 +5,8 @@ FROM rhscl/s2i-core-rhel7:1
 # Volumes:
 #  * /var/opt/rh/rh-nginx114/log/nginx/ - Storage for logs
 
-EXPOSE 8080
-EXPOSE 8443
+EXPOSE 18080
+EXPOSE 18443
 
 ENV NAME=nginx \
     NGINX_VERSION=1.14 \
